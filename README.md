@@ -7,7 +7,7 @@ I've created this plugin because when you save an image on android device, this 
 You just need to include the following line in the config.xml
 
 ```xml
-<gap:plugin name="com.guinatal.refreshgallery" />
+<gap:plugin name="cordova-plugin-refresh-gallery" version="1.0.9" source="npm"/>
 ```
 
 After that, you invoke the method to refresh the image gallery.
