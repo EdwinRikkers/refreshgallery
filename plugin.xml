@@ -5,9 +5,14 @@
     version="1.0.9">
 
     <name>RefreshGalleryPlugin</name>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    
     <author>Guilherme Natal de Mello</author>
     <description>This plugin was made to refresh the gallery on android device.</description>
-
+    
     <js-module src="www/pluginRefreshGallery.js" name="pluginRefreshGallery">
       <clobbers target="window.refreshMedia" />
     </js-module>
