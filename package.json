@@ -16,6 +16,12 @@
     "gallery",
     "refresh"
   ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
   "author": "Guilherme Natal de Mello",
   "license": "Apache-2.0",
   "bugs": {
